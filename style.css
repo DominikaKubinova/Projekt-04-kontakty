@@ -4,8 +4,235 @@
 body {
 	font-family: sans-serif;
 	font-size: 14px;
+	margin: 0;
 }
 
-h1 {
+h1 { 
+	text-align: center;}
+
+h2 {
+	padding: 10px;
+	margin: 0}
+
+img {
+	border-radius: 50%;
+	}
+p{
+	margin:0;
+}
+
+
+.osoba {
+	border: 1px solid rgb(239, 232, 232);
+	box-shadow:  1px 3px 3px rgb(144, 205, 255);
+	border-radius:15px;
+	padding:20px;
+}
+
+@media (max-width: 480px) {
+	.foto {
+		width: 128px;
+		margin: 0 auto;}
+	.popis {
+		text-align: center;
+	}
+	.osoba {
+		margin: 15px
+	}
+	
+}
+
+@media (min-width: 480px) {
+	.tym {
+		display:flex;
+		flex-wrap: wrap;
+	}
+	.osoba {
+		flex: 1 1 45%;
+		margin: 10px;
+	}
+	img {
+		float:left;
+		margin-right: 20px;
+	}
+
+	h2 {
+		padding-top: 20px
+	}
+}
+
+@media (min-width: 1024px) {
+	.tym {
+		display:flex;
+		flex-wrap: wrap;
+	}
+	.osoba {
+		flex: 1 1 23%;
+		margin: 10px;
+	}
+	.foto {
+		width: 128px;
+		margin: 0 auto;}
+
+	.popis {
+		text-align: center;
+		}
+	h2 {
+		padding: 10px;
+		margin: 0}
+	img {
+		margin-right: 100%;
+		margin-bottom: 10px;
+
+	}
+}
+
+
+/* POKUS 2
+h2 {
+	margin: 0;
+	padding: 10px;
 	text-align: center;
 }
+.tym {
+	display:flex;
+	flex-wrap: wrap;
+	flex-basis:100%;
+	height: auto;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+img {
+	border-radius: 50%;
+}
+
+
+@media (max-width: 680px) {
+	.osoba {
+		display:block;
+		width: 100%;
+		height: auto;
+		border: 1px solid rgb(239, 232, 232);
+		box-shadow:  1px 3px 3px rgb(144, 205, 255);
+		margin: 20px;
+		border-radius: 15px;
+		padding: 20px;
+	}
+	
+	.foto {
+		width: 128px;
+		margin: 0 auto;
+}
+
+	.popis {
+		flex-wrap: wrap;
+	}
+	
+	p {
+		text-align: center;
+	}
+}
+
+@media (min-width: 680px) {
+	.osoba {
+		height: auto;
+		border: 1px solid rgb(239, 232, 232);
+		box-shadow:  1px 3px 3px rgb(144, 205, 255);
+		margin: 20px;
+		border-radius: 15px;
+		padding: 20px;
+		flex: 1 1 50%;
+	}
+	
+	h2 {
+		text-align: left;
+		padding: 0;
+	}
+
+	.tym {
+		display: flex;
+		flex-wrap: wrap;
+	
+	}
+	
+	img {
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.popis {
+		flex-wrap: wrap;
+		text-align:left;
+		padding: 20px;
+	}
+}
+
+/*POKUS 1
+img {
+	float: left;
+ 	padding: 20px;
+	border-radius: 50%;
+	max-width: 150px;
+}
+
+.tym {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 480px){
+	.osoba {
+		width:100%;
+		height: auto;
+		float: right;
+		text-align: left;
+		border: 1px solid rgb(239, 232, 232);
+		box-shadow:  1px 3px 3px rgb(144, 205, 255);
+		margin: 20px;
+		border-radius: 15px;
+		}
+	.popis {
+		padding: 20px;
+		}
+	}  
+
+@media (min-width: 481px) and (max-width: 779px) {
+	.osoba {
+		width:50%;
+		height: auto;
+		float:right;
+		text-align: left;
+		border: 1px solid rgb(239, 232, 232);
+		box-shadow:  1px 3px 3px rgb(144, 205, 255);
+		margin: 20px;
+		border-radius: 15px;
+		}
+	.popis {
+		padding: 20px;
+		}
+	}
+
+@media screen and (min-width: 780px) {
+	.osoba {
+		width:25%;
+		height: auto;
+		float:right;
+		text-align: left;
+		border: 1px solid rgb(239, 232, 232);
+		box-shadow:  1px 3px 3px rgb(144, 205, 255);
+		margin: 20px;
+		border-radius: 15px;*/
+
+		/*width: 450px;
+		height: 200px;
+		display:inline-block;
+		text-align: left;
+		border: 1px solid rgb(239, 232, 232);
+		border-radius: 15px;
+		margin: 10px;
+		box-shadow:  1px 3px 3px rgb(144, 205, 255);
+		flex-basis: 25%;*/
+		
+
+
